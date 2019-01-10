@@ -150,7 +150,7 @@ After installations and with all other preconditions in place, you can run
 the demo on the command line by using the `robot` command::
 
     robot QuickStart.rst
-    
+
 If you use Robot Framework 2.9 or older, instead of the `robot` command you
 need to use `pybot`::
 
@@ -197,7 +197,7 @@ example, the following table has two tests:
     *** Test Cases ***
     User can create an account and log in
         Create Valid User    fred    P4ssw0rd
-        Attempt to Login with Credentials    fred    P4ssw0rd
+        Attempt to Login with Credentials    fred    P3ssw0rd
         Status Should Be    Logged In
 
     User cannot log in with bad password
